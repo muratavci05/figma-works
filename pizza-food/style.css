@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+
+
+    }
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainContainer{
+    width: 80%;
+    height: 90%;
+    border-radius: 60px;
+    background-color: white;
+    position: relative;
+}
+
+
+/* header */
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu ul a {
+    font-weight: 400;
+    color: #00240F;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* (de)Es wurde erstellt, um beim zukünftigen Schreiben von js den Befehl „Wenn dieser Link beispielsweise aktiv ist, füge seine aktive Klasse hinzu und trenne ihn von den anderen“ auszugeben.*/
+/* (Tr)Gelecekte js yazarken "Örneğin, eğer bu link aktif ise, aktif sınıfını ekle ve diğerlerinden ayır" komutunu vermek için oluşturulmuştur.*/
+/* (Eng)It was created to issue the command "For example, if this link is active, add its active class and separate it from the others" when writing js in the future.*/
+.active{
+    color: red;
+}
+
+.menu .signIn{
+    background-color: #EC0000;
+    color: #ffff;
+    padding: 5px 20px;
+    border-radius:24px;
+
+}
+
+/* Banner */
+.bannerContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.bannerLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+
+}
+
+.bannerLeft h1 {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -2px;
+
+
+}
+
+.bannerLeft p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bannerRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerRight img{
+width:100%;
+height: 100%;
+
+}
+
+.orderNow {
+    background-color: #EC0000;
+    color: #ffff;
+    padding: 5px 20px;
+    border-radius:24px;
+}
+
+/* Others */
+
+.subHeader{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00240f;
+}
+
+.abs1{
+    position: absolute;
+    top: -15px;
+    left: 30%;
+
+}
+
+.abs1Img{
+    width: 30px;
+}
+
+.abs2{
+    position: absolute;
+    right: 50px;
+    top: 600px;
+}
+.abs2Img{
+    width: 150px;
+}
+
+
+.abs3{
+    position: absolute;
+    left: -75px;
+    bottom: 100px;
+}
+
+.abs3Img{
+    width: 150px;
+}
+
+.abs4{
+    position: absolute;
+    bottom: 200px;
+    right: 45px;
+}
+
+.abs4Img{
+    width: 70px;
+}
+
+.abs5{
+    position: absolute;
+    bottom: -110px;
+    left: -70px;
+    z-index: -1;
+    
+}
+
+.abs5Img{
+    width: 150px;
+}
