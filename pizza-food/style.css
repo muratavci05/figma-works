@@ -28,7 +28,6 @@ a {
 
 .mainContainer{
     width: 80%;
-    height: 90%;
     border-radius: 60px;
     background-color: white;
     position: relative;
@@ -139,7 +138,7 @@ height: 100%;
 
 .abs1{
     position: absolute;
-    top: -15px;
+    top: 15px;
     left: 30%;
 
 }
@@ -150,8 +149,8 @@ height: 100%;
 
 .abs2{
     position: absolute;
-    right: 50px;
-    top: 600px;
+    right: 160px;
+    top: 720px;
 }
 .abs2Img{
     width: 150px;
@@ -160,8 +159,8 @@ height: 100%;
 
 .abs3{
     position: absolute;
-    left: -75px;
-    bottom: 100px;
+    left: -70px;
+    bottom: 300px;
 }
 
 .abs3Img{
@@ -170,8 +169,8 @@ height: 100%;
 
 .abs4{
     position: absolute;
-    bottom: 200px;
-    right: 45px;
+    bottom: 340px;
+    right: -5px;
 }
 
 .abs4Img{
@@ -189,3 +188,86 @@ height: 100%;
 .abs5Img{
     width: 150px;
 }
+
+/* Cards */
+
+.cartContainer{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+.card{
+    width: 200px;
+    height: 100%;
+    border: 1px solid #BDBDBD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: box-shadow 0.2s linear;
+
+}
+
+.card:hover{
+    box-shadow: 0 0 20px 0 #bdbdbd;
+}
+
+.imageContainer img{
+    width: 100px;
+}
+
+.cardHeader {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+
+}
+
+.cardInfo{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    color: #333333;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 600;
+    color: #05A848;
+    margin: 15px 0;
+}
+
+.select {
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.addToCard{
+   
+    background-color: #EC0000;
+    color: #ffff;
+    padding: 5px 20px;
+    border-radius:24px;
+
+}
+
+.addButton{
+    width: 90%;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+}
+
+
